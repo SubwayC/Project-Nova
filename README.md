@@ -124,10 +124,3 @@ Desktop                Mobile
 Electron          React Native
 ```
 
-## Development Guidelines
-
-1. **Never put business logic in React components.** All editing logic goes in the core packages.
-2. **The document model is the source of truth.** Zustand stores mirror it, they don't own it.
-3. **Commands are the only way to mutate the document.** This ensures undo/redo always works.
-4. **PixiJS objects are not document objects.** The renderer maps between them.
-5. **No Electron APIs in core packages.** Use abstract interfaces.
