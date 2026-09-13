@@ -82,20 +82,6 @@ npm run typecheck
 npm run lint
 ```
 
-## Document Model
-
-Every project follows this structure on disk:
-
-```
-MyProject.nova/
-  project.json          ← Project metadata, page refs, settings
-  pages/
-    page-001.json       ← Page object tree
-  assets/
-    image.png           ← Copied asset files
-  components/
-  exports/
-```
 
 ## Rendering Architecture
 
